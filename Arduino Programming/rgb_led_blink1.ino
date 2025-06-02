@@ -1,0 +1,36 @@
+// Radit Mamnun
+// RGB LED BLINK
+
+int red=13,blue=12,green=11;
+
+void setup()
+{
+  pinMode(red,OUTPUT);
+   pinMode(blue,OUTPUT);
+   pinMode(green,OUTPUT);
+  
+}
+void loop()
+{
+  rgbBlink();
+}
+
+void rgbBlink()
+{
+  
+  digitalWrite(red,HIGH);
+  delay(1000);
+  digitalWrite(red,LOW);
+  delay(1000);
+  
+   digitalWrite(blue,HIGH);
+  delay(1000);
+  digitalWrite(blue,LOW);
+  delay(1000);
+  
+  digitalWrite(green,HIGH);
+  delay(1000);
+  digitalWrite(green,LOW);
+  delay(1000);
+  
+}
